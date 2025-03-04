@@ -1,0 +1,91 @@
+.rectangle
+{
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center; /* Центрує по вертикалі */
+    justify-content: center; 
+    color: white;
+    font-weight: bold; /* Жирний шрифт */
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+    width: 300px;  /* Ширина */
+    height: 50px; /* Висота */
+    background-color: #136BCE; /* Колір */
+    
+    border-radius: 50px;
+}
+
+.rectangle2
+{
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center; /* Центрує по вертикалі */
+    justify-content: center; 
+    color: white;
+    font-weight: bold; /* Жирний шрифт */
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+
+    width: 300px;  /* Ширина */
+    height: 50px; /* Висота */
+    background-color: black; /* Колір */
+    
+    border-radius: 50px;
+}
+
+.PageLeveling
+{
+    text-align: center;
+    width: 100%;
+}
+
+.TableLeveling
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.UIbuttons
+{
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+UIbuttons:focus 
+{
+    border: none;
+    outline: none;
+}
+
+.UITable
+{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 1000px; 
+    height: 250px;
+}
+
+.UIimage
+{
+    width: 180px;
+    height: 180px;
+}
+
+.HeaderSettings
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Indent
+{
+    text-indent: 30px;
+}
+
