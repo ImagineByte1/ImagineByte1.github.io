@@ -65,13 +65,13 @@ body {
         top: 60px;
         left: 0;
         width: 100%;
-        background: black;
+        background: white;
     }
     .nav-links a {
         text-align: center;
         padding: 15px;
-        margin: 5px 0;
-        border-top: 1px solid white;
+        margin: 5px 10;
+        border-top: 1px solid black;
     }
     .burger {
         display: flex;
