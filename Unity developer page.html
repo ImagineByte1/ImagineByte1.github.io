@@ -2,49 +2,47 @@
 <htlm lang = "en">
     <head>
 
-        <meta charset = "UTF-8">
-        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-        <meta name = "viewport" content = "widht = device-width, initial-scale = 1.0">
-        <title>ЛР 6 Скиба БД-К20 (Хобі)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development</title>
 
-        <link rel="stylesheet" href="Page elements.css">
+    <link rel="stylesheet" href="About pages.css">
 
     </head>
 
-    <body style="background-color:white">
+    <body>
 
-        <div class="rectangle">UNITY DEVELOPER</div>
-        <br>
+        <div class="navbar">
+            <div>Game Development</div>
+            <div class="nav-links">
+                <a href="#about">ABOUT</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#projects">PROJECTS</a>
+            </div>
+            <div class="burger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="content">
+            <section id="about">I am the best Unity developer in the world!!!</section>
+            <section id="skills">My skills include Unity, C#, Game Design, and more.</section>
+            <section id="projects">Check out my amazing game projects here!</section>
+        </div>
+        <div class="floating-buttons_Location">
+            
+                <button class="floating-buttons_Properties" onclick="scrollUp()">
+                    <img class="floating-buttons_Icons" src="Images/Up_Button.png" alt="Up">
+                </button>
+                <button class="floating-buttons_Properties" onclick="window.location.href='index.html';">
+                    <img class="floating-buttons_Icons" src="Images/GoToHomePage_Button.png" alt="GoHomePage">
+                </button>
+        </div>
         
-        <div class = "TableLeveling">
+        
 
-            <table  class = "UITable">
-
-                <tr>
-
-                    <td style = "text-align: justify; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-
-                        <p class="Indent">
-                            Програмування - це моє улюблене хобі, і я не можу уявити своє життя без цього захоплюючого заняття. Якщо звернутися до початків моєї пригоди з програмуванням, 
-                            то це було кілька років тому, коли я вперше стикнувся з кодуванням на шкільному уроці інформатики. Тоді мені вдалося створити просту програму, яка виводила текст 
-                            на екрані, і ця перемога мене вразила. З того часу програмування стало для мене не просто хобі, а справжньою пристрастю. Я вивчав різні мови програмування, такі як C#, Swift, Delphi і багато інших. 
-                            Кожна з них має свої особливості і застосування, і це робить програмування завжди цікавим.
-                        </p>
-
-                    </td>
-                </tr>
-
-            </table>
-
-            </div>
-
-            <br>
-
-            <div class = "PageLeveling">
-
-                
-
-            </div>
+        <script src="About pages.js"></script>
 
     </body>
 
