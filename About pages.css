@@ -31,9 +31,8 @@ body {
 
 .nav-links {
     display: flex;
-
     gap: 15px;
-    background: #136BCE; /* Один великий чорний фон */
+    background: #136BCE; 
     border-radius: 50px;
     padding: 10px 20px;
 }
@@ -45,34 +44,49 @@ body {
     font-weight: bold;
     padding: 5px 10px;
 }
+.nav-links h2 {
+    display: none;
+}
 
 .burger {
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
-.burger div {
-    width: 25px;
-    height: 3px;
-    background: white;
-    margin: 5px;
-}
+
 @media screen and (max-width: 768px) {
     .nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
-        left: 0;
-        width: 100%;
+        top: 90px;
+        
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+
+        border-radius: 10px;
+        border: 2px solid black;
         background: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+        width: 90%;
+        height: 260px;
+
     }
     .nav-links a {
         text-align: center;
         padding: 15px;
-        margin: 5px 10;
-        border-top: 1px solid black;
+        margin: 10px 10;
+        background: #136BCE;
+        color: white;
+        border-radius: 50px;
     }
+
+    .nav-links h2 {
+       display: block;
+    }
+
     .burger {
         display: flex;
     }
@@ -87,10 +101,7 @@ section {
     align-items: center;
     justify-content: center;
     font-size: 24px;
-    border-bottom: 2px solid #ddd;
 }
-
-
 
 .floating-buttons_Location {
     
@@ -124,21 +135,10 @@ section {
     height: 40px;
 }
 
-.floating-buttons__link img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 16px;
-    background: black;
-    color: white;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
+.Icons {
+
+    float: right;
+    width: 40px;
+    height: 40px;
 }
 
-.floating-buttons__link img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-}
