@@ -1,132 +1,127 @@
 <!DOCTYPE html>
 <htlm lang = "en">
-
     <head>
 
-        <meta charset = "UTF-8">
-        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-        <meta name = "viewport" content = "widht = device-width, initial-scale = 1.0">
-        <title>ЛР 6 Скиба БД-К20 (Головна)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
 
-        <style>
-
-            table
-            {
-                border: none;
-                border-spacing:  20px 30px;
-            }
-
-            th, td 
-            {
-                background: white;
-                border: 2px solid black;
-                border-radius: 20px;
-            }
-
-        </style>
-
-        <link rel="stylesheet" href="Page elements.css">
+    <link rel="stylesheet" href="Page elements.css">
+    <link rel="stylesheet" href="About pages.css">
 
     </head>
 
-    <body style="background-color:white">
+    <body>
         
-      <div class = "PageLeveling">
+        <div class="navbar">
+           <a class="Logo_Background" href="index.html"><img class="Logo_size" src="Images/AA-logo.png" alt="Burger-menu_button"></a>
+            <div class="nav-links">
+                <h2>Page Sections</h2>
+                <a href="#about">About</a>
+                <a href="#specialization">Specialization</a>
+                <a href="#contacts">Contacts</a>
+            </div>
+            <div class="burger" onclick="toggleMenu()"><img class="Burger-menu_Button" src="Images/Burger-menu_button.png" alt="Burger-menu_button"></div>
+        </div>
+        <div class="content">
+            <section id="about">
+
+              <div>
+
+                <img style="width: 300px; height: 300px;" src="Images/Developer.png" alt="Developer Image">
+
+              </div>
+
+              <p class="Text_Style-1">
+
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                My skills include Unity, C#, Game Design, and more.
+                
+
+              </p>
+
+            </section>
+            <section id="specialization">
+
+              <div class="Titles">Specialization</div>
+
+                <a class="HomePage_Buttons" href="Unity developer page.html">
+  
+                  <div class="Button_Content">
+
+                    <img class="Icons" src="Images/Game-Dev.png">
+                    <span>Game Development</span>
+
+                  </div>
+                   
+                   <img class="Icons_for_GoButtons" src="Images/GoToPage_Button.png">
+
+                </a>
+  
+                <a class="HomePage_Buttons" href="QA page.html">
         
-        <img style="width: 300px; height: 300px; display: block; margin: 0 auto;" src="Images/Developer.png">
+                  <div class="Button_Content">
 
-      </div>
+                    <img class="Icons" src="Images/QA.png">
+                    <span>Quality Assurance</span>
 
-        <div class = "TableLeveling">
-
-            <table border = "1" style="width: 900px;">
-
-                <colgroup>
-                    <col style="width: 200px"> <!-- Перший стовпець -->
-                </colgroup>
-
-
-                <tr style="width: 200px; height: 200px;">
-
-                    <td style = "text-align: justify; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;" colspan="2">
-
-                        <p class="Indent" style="margin: 10px;">
-                            Програмування - це моє улюблене хобі, і я не можу уявити своє життя без цього захоплюючого заняття. Якщо звернутися до початків моєї пригоди з програмуванням, 
-                            то це було кілька років тому, коли я вперше стикнувся з кодуванням на шкільному уроці інформатики. Тоді мені вдалося створити просту програму, яка виводила текст 
-                            на екрані, і ця перемога мене вразила. З того часу програмування стало для мене не просто хобі, а справжньою пристрастю. Я вивчав різні мови програмування, такі як C#, Swift, Delphi і багато інших. 
-                            Кожна з них має свої особливості і застосування, і це робить програмування завжди цікавим.
-                        </p>
-    
-                    </td>
-
-                </tr>
-
-            </table>
-
-         </div>
-
-            <div class="rectangle2">MY SPECIALIZATION</div>
-
-        <div class = "TableLeveling">
-
-            <table border = "1">
+                  </div>
   
-                <colgroup>
-                    <col style="width: 200px"> <!-- Перший стовпець -->
-                    <col style="width: 200px">
-                </colgroup>
+                  <img class="Icons_for_GoButtons" src="Images/GoToPage_Button.png">
 
-                  <tr style="height: 150px;">
-  
-                    <td>
-                      <h2 style="font-family: Arial, Helvetica, sans-serif;">Game <br> Development</h2>
-                      <a href="Unity developer page.html"><img style = "width: 40px; height: 40px; display: block; margin: 10px; float: right;" src="Images/GoToPage_Button.png"></a> 
-                    </td>
-  
-                    <td>
-                      <h2 style="font-family: Arial, Helvetica, sans-serif;">Quality <br> Assurance</h2>
-                      <a href="QA page.html"><img style = "width: 40px; height: 40px; display: block; margin: 10px; float: right;" src="Images/GoToPage_Button.png"></a> 
-                    </td>
-  
-                  </tr>
+                </a>
 
-            </table>
+
+            </section>
+
+            <section id="contacts">
+
+              <div class="Titles">Contacts</div>
+
+              <a class="HomePage_Buttons" href="https://www.linkedin.com/in/artem-skyba-b394bb267/">
+
+                <div class="Button_Content">
+
+                  <img class="Icons" src="Images/LinkedIn.png">
+                  <span>LinkedIn</span>
+
+                </div>
+                 
+                 <img class="Icons_for_GoButtons" src="Images/GoToPage_Button.png">
+
+              </a>
+
+              <a class="HomePage_Buttons" href="mailto:artem.skiba124@gmail.com">
+      
+                <div class="Button_Content">
+
+                  <img class="Icons" src="Images/Gmail.png">
+                  <span>Gmail</span>
+
+                </div>
+
+                <img class="Icons_for_GoButtons" src="Images/GoToPage_Button.png">
+
+              </a>
+
+            </section>
+
+            <br>
 
         </div>
 
-        <div class="rectangle2">CONTACTS</div>
-
-        <div class="TableLeveling">
-
-            <table border = "1">
-  
-                <colgroup>
-                    <col style="width: 200px"> <!-- Перший стовпець -->
-                    <col style="width: 200px">
-                </colgroup>
-
-                  <tr style="height: 150px;">
-  
-                    <td>
-                      <h2 style="font-family: Arial, Helvetica, sans-serif;">
-                        <img style = "width: 60px; height: 60px; display: block; margin: 0 auto;" src="Images/LinkedIn.png" alt="LinkedIn">
-                        LinkedIn</h2>
-                      <a href="https://www.linkedin.com/in/artem-skyba-b394bb267/"><img style = "width: 40px; height: 40px; display: block; margin: 10px; float: right;" src="Images/GoToPage_Button.png"></a> 
-                    </td>
-  
-                    <td>
-                      <h2 style="font-family: Arial, Helvetica, sans-serif;">     
-                        <img style = "width: 60px; height: 60px; display: block; margin: 0 auto;" src="Images/Gmail.png" alt="Gmail">
-                        Gmail
-                      </h2>
-                      <a href="mailto:artem.skiba124@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you"><img style = "width: 40px; height: 40px; display: block; margin: 10px; float: right;" src="Images/GoToPage_Button.png"></a> 
-                    </td>
-  
-                  </tr>
-
-            </table>
-
-        </div>
+        <script src="About pages.js"></script>
 
     </body>
 
