@@ -9,7 +9,6 @@ body{
 
 .Logo_Background{
     background-color: black;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     border-radius: 50px; 
 
     width: 100px;
@@ -51,16 +50,15 @@ body{
     border-radius: 50px;
     width: 50px; 
     height: 50px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 
 .Text_Style-1 {    
 
-    margin-top: 20px;
     padding: 20px;
     background: white;
     color: black;
+    text-align: justify;
     border: none;
     border-radius: 30px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -76,7 +74,7 @@ body{
     align-items: center;
 
     width: 300px;
-    height: 170px;
+    height: 150px;
 
     background-color: #136BCE;
 
