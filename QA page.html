@@ -2,51 +2,58 @@
 <htlm lang = "en">
     <head>
 
-        <meta charset = "UTF-8">
-        <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
-        <meta name = "viewport" content = "widht = device-width, initial-scale = 1.0">
-        <title>ЛР 6 Скиба БД-К20 (Історія WWW)</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development</title>
 
-        <link rel="stylesheet" href="Page elements.css">
+    <link rel="stylesheet" href="Page elements.css">
+    <link rel="stylesheet" href="About pages.css">
 
     </head>
 
-    <body style="background-color:white">
+    <body>
 
-        <div class="rectangle">QA</div>
-        <br>
+        <div class="header">
 
-        <div class = "TableLeveling">
-
-            <table class = "UITable">
-
-                <tr>
-
-                    <td style="text-align: justify; font-size: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-
-                        <p class="Indent">
-                            Розробниками технології Всесвітнього павутиння вважаються Тім Бернерс-Лі і Роберт Кайо. Тім Бернерс-Лі є автором технологій HTTP, URI/URL та HTML. 
-                            У 1980—1981 роках він працював у Європейській організації з ядерних досліджень консультантом з програмного забезпечення. 
-                            Саме там він для власних потреб написав програму «Енквайр», яка використовувала випадкові асоціації для зберігання даних 
-                            та заклала концептуальну основу для Всесвітнього павутиння.  У 1984 року він отримав стипендію в CERN і зайнявся там розробкою розподілених систем для збору наукових даних. 
-                            У цей час він працював над системою «FASTBUS» і розробив свою систему RPC.
-                        </p>
-                    
-                    </td>
-                    
-                </tr>
-
-            </table>
+            <div class="navbar">
+                <div class="Background_Title">Quality Assurance</div>
+                <div class="nav-links">
+                    <h3>Page Sections</h3>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                </div>
+                <div class="burger" onclick="toggleMenu()"><img class="Burger-menu_Button" src="Images/Burger-menu_button.png" alt="Burger-menu_button"></div>
+            </div>
 
         </div>
 
-        <br>
+        <div class="content">
+            <section id="about">
+        
+            </section>
 
-        <div class = "PageLeveling">
+            <section id="skills">
 
-           
+            </section>
 
+            <section id="projects">
+
+            </section>
         </div>
+
+        <div class="floating-buttons_Location">
+            
+                <button class="floating-buttons_Properties" onclick="scrollUp()">
+                    <img class="floating-buttons_Icons" src="Images/Up_Button.png" alt="Up">
+                </button>
+                <button class="floating-buttons_Properties" onclick="window.location.href='index.html';">
+                    <img class="floating-buttons_Icons" src="Images/GoToHomePage_Button.png" alt="GoHomePage">
+                </button>
+        </div>
+        
+        <script src="About pages.js"></script>
 
     </body>
+
 </htlm>
