@@ -55,6 +55,7 @@ body{
 
 .Text_Style-1 {    
 
+    margin-top: 20px;
     padding: 20px;
     background: white;
     color: black;
@@ -64,6 +65,10 @@ body{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+.Big_Text {
+    text-align: left;
+    font-size: 18px;
+}
 
 
 .HomePage_Buttons{
