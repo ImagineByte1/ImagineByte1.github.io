@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Prostirsans-DisplayHeavy'; /* Назва шрифта, яку будемо використовувати */
+    src: url('Fonts/Prostirsans-DisplayHeavy.otf') format('opentype'); /* Вказуємо шлях до файлу шрифта */
+}
+
+body{
+    font-family: 'Prostirsans-DisplayHeavy', sans-serif;
+}
+
+.Logo_Background{
+    background-color: black;
+    border-radius: 50px; 
+
+    width: 100px;
+    height: 50px;
+
+    display: flex;
+    align-items: center; /* Центрує по вертикалі */
+    justify-content: center; 
+
+}
+
+.Logo_size{
+    width: 40px;
+    height: 40px;
+}
+
+.Titles{
+  
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center; /* Центрує по вертикалі */
+    justify-content: center; 
+    color: white;
+    font-weight: bold; /* Жирний шрифт */
+    
+    font-size: 16px;
+
+    width: 200px;  /* Ширина */
+    height: 50px; /* Висота */
+    background-color: black; /* Колір */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    border-radius: 50px;
+}
+
+.Burger-menu_Button{
+    background-color: #136BCE;
+    border-radius: 50px;
+    width: 50px; 
+    height: 50px;
+}
+
+
+.Text_Style-1 {    
+
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    color: black;
+    text-align: justify;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Big_Text {
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.HomePage_Buttons{
+    display: inline-block;
+
+    margin-top: 20px;
+    margin-inline: 20px;
+    align-items: center;
+
+    width: 300px;
+    height: 150px;
+
+    background-color: #136BCE;
+
+    border: none;
+    border-radius: 30px;
+
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Button_Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрує елементи по горизонталі */
+    justify-content: center; /* Центрує елементи по вертикалі */
+}
+
+.Icons {
+
+    width: 60px; 
+    height: 60px; 
+    margin-block: 10px;
+}
+
+.Icons_for_GoButtons {
+    margin-right: 10px;
+
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+
+
