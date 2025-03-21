@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    position: fixed;
+    margin-top: 10px;
+    
+    width: 1000px; 
+    max-width: 90%;
+
+    background: #136BCE;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    border-radius: 50px;
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.Background_Title {
+
+    background-color: black;   
+    color: white;     
+    font-weight: bold;  
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    font-size: 16px;
+    width: 200px;  
+    height: 50px; 
+
+    border-radius: 50px;      
+    padding: 10px;   
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+    background: #136BCE; 
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+.nav-links h3 {
+    display: none;
+}
+
+.burger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .nav-links {
+        display: flex;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 80px;
+        
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+
+        border-radius: 30px;
+        border: none;
+        background: white;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+        width: 90%;
+        height: 250px;
+
+    }
+    .nav-links a {
+        text-align: center;
+        padding: 15px;
+        margin: 0px 10px;
+        background: #136BCE;
+        color: white;
+        border-radius: 50px;
+    }
+
+    .nav-links h3 {
+       display: block;
+    }
+
+    .burger {
+        display: flex;
+    }
+}
+.content {
+    padding-top: 120px;
+
+    align-items: center;
+    justify-items: center;
+    
+    display: flex;
+    flex-direction: column;
+   
+}
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 30px;
+    padding: 10px;    
+
+    background-color: #EDEDED;
+    border-radius: 30px;
+}
+
+.floating-buttons_Location {
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+
+    background: #136BCE; 
+    border-style: solid;
+    border-width: 2px;
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.floating-buttons_Properties {
+
+   background: none;
+   border: none;
+
+}
+
+.floating-buttons_Icons {
+    cursor: pointer;
+    all: unset;
+    width: 40px;
+    height: 40px;
+}
+
+.Skills_cards_images{
+
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    color: transparent;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Projects_cards_images{
+
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.Store_Button{
+    display: flex; 
+    flex-direction: row;
+
+    margin: 0 auto;
+    
+    display: flex;
+    align-items: center; /* Центрує по вертикалі */
+    justify-content: center; 
+    color: white;
+    font-weight: bold; /* Жирний шрифт */
+    text-decoration: none;
+    font-size: 16px;
+    
+    width: 220px;  /* Ширина */
+    height: 50px; /* Висота */
+    background-color: #136BCE; /* Колір */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+    border-radius: 50px;
+}
+
+.Store_Button_image{
+    width: 60px; 
+    height: 60px;
+}
+
+.Store_Button_Link{
+    width: 30px; 
+    height: 30px;
+
+    margin-inline: 10px;
+}
+
