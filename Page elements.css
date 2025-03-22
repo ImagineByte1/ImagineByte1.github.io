@@ -1,10 +1,37 @@
 @font-face {
-    font-family: 'Prostirsans-DisplayHeavy'; /* Назва шрифта, яку будемо використовувати */
-    src: url('Fonts/Prostirsans-DisplayHeavy.otf') format('opentype'); /* Вказуємо шлях до файлу шрифта */
+    font-family: 'NotoSans'; 
+    src: url('Fonts/NotoSans-Regular.ttf') format('truetype'); 
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans'; 
+    src: url('Fonts/NotoSans-Medium.ttf') format('truetype'); 
+    
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans'; 
+    src: url('Fonts/NotoSans-Bold.ttf') format('truetype'); 
+    
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSans'; 
+    src: url('Fonts/NotoSans-Italic.ttf') format('truetype'); 
+    
+    font-weight: normal;
+    font-style: italic;
 }
 
 body{
-    font-family: 'Prostirsans-DisplayHeavy', sans-serif;
+    font-family: 'NotoSans', sans-serif;
 }
 
 .Logo_Background{
@@ -66,6 +93,7 @@ body{
 }
 
 .Big_Text {
+    font-weight: bold;
     text-align: left;
     font-size: 18px;
 }
@@ -86,6 +114,7 @@ body{
     border: none;
     border-radius: 30px;
 
+    font-weight: bold;
     color: white;
     font-size: 16px;
     text-decoration: none;
